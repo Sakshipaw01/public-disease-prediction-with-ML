@@ -396,4 +396,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+  port = int(os.getenv("PORT", 8501))
+    st.run(port=port)
 
